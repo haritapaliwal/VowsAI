@@ -1,0 +1,6605 @@
+{
+  "matchmakers": [
+    {
+      "id": "m1",
+      "username": "admin",
+      "password": "password123",
+      "name": "Simran Alag"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust1",
+      "firstName": "Vikram",
+      "lastName": "Aditya",
+      "gender": "Male",
+      "dob": "1997-09-24",
+      "age": 29,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 179,
+      "email": "puneet.saxena@example.com",
+      "phone": "+91 74968 16544",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Marketing Lead",
+        "income": 2300000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Syrian Christian",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Scorpio",
+        "nakshatra": "Poorvaphalguni"
+      },
+      "status": "Matching",
+      "notes": [
+        {
+          "id": "n_auto_1780583884651",
+          "date": "2026-06-04T14:38:04.651Z",
+          "author": "System",
+          "text": "Recommended match profile for Anjali Singh (Design Lead from Jaipur) was sent to the client."
+        },
+        {
+          "id": "n1",
+          "date": "2026-06-01T10:00:00Z",
+          "author": "Simran Alag",
+          "text": "Spoke with Vikram today. He wants an educated partner who is career-oriented and open to living in Bangalore. Prefers vegetarian diet."
+        },
+        {
+          "id": "n2",
+          "date": "2026-06-03T15:30:00Z",
+          "author": "Simran Alag",
+          "text": "Vikram updated his preference: open to matching with partners who are slightly younger or the same age."
+        }
+      ]
+    },
+    {
+      "id": "cust2",
+      "firstName": "Sneha",
+      "lastName": "Mehta",
+      "gender": "Female",
+      "dob": "1999-07-28",
+      "age": 27,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'2\"",
+      "heightCm": 157,
+      "email": "kavya.sharma@example.com",
+      "phone": "+91 77495 40910",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Financial Analyst",
+        "income": 3000000
+      },
+      "family": {
+        "siblings": "1 younger sister",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Maratha",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Sagittarius",
+        "nakshatra": "Jyeshta"
+      },
+      "status": "Onboarding",
+      "notes": [
+        {
+          "id": "n3",
+          "date": "2026-06-02T11:00:00Z",
+          "author": "Simran Alag",
+          "text": "Sneha completed onboarding. Her parents are very keen on matching gotra & rashi compatibility. Horoscopes must be checked before sending matches."
+        }
+      ]
+    },
+    {
+      "id": "cust3",
+      "firstName": "Kabir",
+      "lastName": "Kapoor",
+      "gender": "Male",
+      "dob": "1995-06-02",
+      "age": 31,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "6'2\"",
+      "heightCm": 188,
+      "email": "aniket.trivedi@example.com",
+      "phone": "+91 99438 48864",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Product Manager",
+        "income": 2700000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Christian",
+        "caste": "Syrian Christian",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Virgo",
+        "nakshatra": "Uttarabhadrapada"
+      },
+      "status": "Matching",
+      "notes": []
+    },
+    {
+      "id": "cust4",
+      "firstName": "Aditi",
+      "lastName": "Sharma",
+      "gender": "Female",
+      "dob": "1998-09-21",
+      "age": 28,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 165,
+      "email": "priya.verma@example.com",
+      "phone": "+91 77949 86622",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Senior Software Engineer",
+        "income": 5700000
+      },
+      "family": {
+        "siblings": "1 brother",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Gautam",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Leo",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": [
+        {
+          "id": "n4",
+          "date": "2026-06-04T12:00:00Z",
+          "author": "Simran Alag",
+          "text": "Aditi is a tech lead. She prefers a match who works in the tech/business sector in Bangalore or is willing to relocate to Bangalore."
+        }
+      ]
+    },
+    {
+      "id": "cust5",
+      "firstName": "Rahul",
+      "lastName": "Reddy",
+      "gender": "Male",
+      "dob": "1993-04-22",
+      "age": 33,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "rahul.saxena@example.com",
+      "phone": "+91 91800 59944",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Senior Software Engineer",
+        "income": 700000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Taurus",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "cust6",
+      "firstName": "Priya",
+      "lastName": "Nair",
+      "gender": "Female",
+      "dob": "2000-12-15",
+      "age": 26,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'8\"",
+      "heightCm": 172,
+      "email": "neha.singh@example.com",
+      "phone": "+91 97616 51105",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Senior Software Engineer",
+        "income": 3200000
+      },
+      "family": {
+        "siblings": "2 younger sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Gemini",
+        "nakshatra": "Anuradha"
+      },
+      "status": "Matching",
+      "notes": [
+        {
+          "id": "n_auto_1780583492081",
+          "date": "2026-06-04T14:31:32.081Z",
+          "author": "System",
+          "text": "Recommended match profile for Shivam Sen (Design Lead from Chennai) was sent to the client."
+        }
+      ]
+    },
+    {
+      "id": "cust7",
+      "firstName": "Rohan",
+      "lastName": "Verma",
+      "gender": "Male",
+      "dob": "1998-06-24",
+      "age": 28,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 169,
+      "email": "naman.chatterjee@example.com",
+      "phone": "+91 84543 25131",
+      "education": {
+        "college": "Christ University",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Marketing Lead",
+        "income": 800000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Pisces",
+        "nakshatra": "Uttarashada"
+      },
+      "status": "Matching",
+      "notes": [
+        {
+          "id": "n_auto_1780584319763",
+          "date": "2026-06-04T14:45:19.763Z",
+          "author": "System",
+          "text": "Recommended match profile for Rhea Chatterjee (Medical Practitioner from Delhi NCR) was sent to the client."
+        }
+      ]
+    },
+    {
+      "id": "cust8",
+      "firstName": "Anjali",
+      "lastName": "Gupta",
+      "gender": "Female",
+      "dob": "1996-04-09",
+      "age": 30,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "nisha.pandey@example.com",
+      "phone": "+91 91954 25749",
+      "education": {
+        "college": "Christ University",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Consultant",
+        "income": 4800000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "No",
+        "rashi": "Virgo",
+        "nakshatra": "Uttarabhadrapada"
+      },
+      "status": "Matching",
+      "notes": []
+    },
+    {
+      "id": "cust9",
+      "firstName": "Siddharth",
+      "lastName": "Sen",
+      "gender": "Male",
+      "dob": "1994-01-10",
+      "age": 32,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "6'2\"",
+      "heightCm": 187,
+      "email": "rahul.reddy@example.com",
+      "phone": "+91 88729 44772",
+      "education": {
+        "college": "Christ University",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Data Scientist",
+        "income": 4800000
+      },
+      "family": {
+        "siblings": "1 brother",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Libra",
+        "nakshatra": "Visakha"
+      },
+      "status": "Married",
+      "notes": []
+    },
+    {
+      "id": "cust10",
+      "firstName": "Tanvi",
+      "lastName": "Shah",
+      "gender": "Female",
+      "dob": "2001-11-27",
+      "age": 25,
+      "city": "Ahmedabad",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 165,
+      "email": "swati.shetty@example.com",
+      "phone": "+91 88702 88764",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "Data Scientist",
+        "income": 1500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Leo",
+        "nakshatra": "Aslesha"
+      },
+      "status": "Searching",
+      "notes": []
+    }
+  ],
+  "pool": [
+    {
+      "id": "pool_m_1",
+      "firstName": "Aditya",
+      "lastName": "Pandey",
+      "gender": "Male",
+      "dob": "1995-10-25",
+      "age": 31,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'8\"",
+      "heightCm": 173,
+      "email": "aditya.pandey@example.com",
+      "phone": "+91 83967 63921",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Consultant",
+        "income": 2900000
+      },
+      "family": {
+        "siblings": "2 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Virgo",
+        "nakshatra": "Poorvashada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_2",
+      "firstName": "Naman",
+      "lastName": "Gupta",
+      "gender": "Male",
+      "dob": "1992-10-03",
+      "age": 34,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 174,
+      "email": "naman.gupta@example.com",
+      "phone": "+91 89654 42653",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Marketing Lead",
+        "income": 900000
+      },
+      "family": {
+        "siblings": "2 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aquarius",
+        "nakshatra": "Uttarabhadrapada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_3",
+      "firstName": "Harsh",
+      "lastName": "Patel",
+      "gender": "Male",
+      "dob": "2001-02-10",
+      "age": 25,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 178,
+      "email": "harsh.patel@example.com",
+      "phone": "+91 90275 94076",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Senior Software Engineer",
+        "income": 5500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Christian",
+        "caste": "Syrian Christian",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Sagittarius",
+        "nakshatra": "Rohini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_4",
+      "firstName": "Aditya",
+      "lastName": "Nair",
+      "gender": "Male",
+      "dob": "1993-10-17",
+      "age": 33,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "aditya.nair@example.com",
+      "phone": "+91 87332 88385",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Financial Analyst",
+        "income": 5100000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Taurus",
+        "nakshatra": "Revati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_5",
+      "firstName": "Rajat",
+      "lastName": "Reddy",
+      "gender": "Male",
+      "dob": "1998-02-15",
+      "age": 28,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 177,
+      "email": "rajat.reddy@example.com",
+      "phone": "+91 83723 71536",
+      "education": {
+        "college": "BITS Pilani",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Consultant",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "2 brothers",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Haritas",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Virgo",
+        "nakshatra": "Moola"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_6",
+      "firstName": "Pranav",
+      "lastName": "Shah",
+      "gender": "Male",
+      "dob": "1996-04-06",
+      "age": 30,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "pranav.shah@example.com",
+      "phone": "+91 92013 54871",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Consultant",
+        "income": 1100000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aries",
+        "nakshatra": "Magha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_7",
+      "firstName": "Vikram",
+      "lastName": "Bhatia",
+      "gender": "Male",
+      "dob": "1993-02-03",
+      "age": 33,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'12\"",
+      "heightCm": 182,
+      "email": "vikram.bhatia@example.com",
+      "phone": "+91 86907 80964",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Marketing Lead",
+        "income": 5700000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Khatri",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Aries",
+        "nakshatra": "Swati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_8",
+      "firstName": "Siddharth",
+      "lastName": "Reddy",
+      "gender": "Male",
+      "dob": "1994-10-19",
+      "age": 32,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "6'2\"",
+      "heightCm": 188,
+      "email": "siddharth.reddy@example.com",
+      "phone": "+91 70128 77632",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Product Manager",
+        "income": 3700000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Khatri",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Leo",
+        "nakshatra": "Uttarashada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_9",
+      "firstName": "Aniket",
+      "lastName": "Mehta",
+      "gender": "Male",
+      "dob": "2000-01-22",
+      "age": 26,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 169,
+      "email": "aniket.mehta@example.com",
+      "phone": "+91 74038 51678",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Medical Practitioner",
+        "income": 3500000
+      },
+      "family": {
+        "siblings": "1 brother",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Virgo",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_10",
+      "firstName": "Aniket",
+      "lastName": "Sharma",
+      "gender": "Male",
+      "dob": "1991-03-04",
+      "age": 35,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "aniket.sharma@example.com",
+      "phone": "+91 99442 61163",
+      "education": {
+        "college": "Christ University",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Design Lead",
+        "income": 3000000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Taurus",
+        "nakshatra": "Uttarashada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_11",
+      "firstName": "Ayush",
+      "lastName": "Rao",
+      "gender": "Male",
+      "dob": "2000-10-03",
+      "age": 26,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 179,
+      "email": "ayush.rao@example.com",
+      "phone": "+91 75114 22001",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Data Scientist",
+        "income": 1800000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Haritas",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Capricorn",
+        "nakshatra": "Poorvashada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_12",
+      "firstName": "Puneet",
+      "lastName": "Mishra",
+      "gender": "Male",
+      "dob": "1998-08-03",
+      "age": 28,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 179,
+      "email": "puneet.mishra@example.com",
+      "phone": "+91 82011 72810",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Data Scientist",
+        "income": 5500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Gautam",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Virgo",
+        "nakshatra": "Chitra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_13",
+      "firstName": "Shivam",
+      "lastName": "Dubey",
+      "gender": "Male",
+      "dob": "2001-04-04",
+      "age": 25,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 176,
+      "email": "shivam.dubey@example.com",
+      "phone": "+91 72986 55760",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Medical Practitioner",
+        "income": 3800000
+      },
+      "family": {
+        "siblings": "1 younger sister",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Aries",
+        "nakshatra": "Ardra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_14",
+      "firstName": "Harsh",
+      "lastName": "Chaudhary",
+      "gender": "Male",
+      "dob": "2000-05-13",
+      "age": 26,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "harsh.chaudhary@example.com",
+      "phone": "+91 93019 78554",
+      "education": {
+        "college": "Christ University",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Software Engineer",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Aries",
+        "nakshatra": "Punarvasu"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_15",
+      "firstName": "Aarav",
+      "lastName": "Kapoor",
+      "gender": "Male",
+      "dob": "2001-03-26",
+      "age": 25,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "aarav.kapoor@example.com",
+      "phone": "+91 88983 51291",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "HR Specialist",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Reddy",
+        "gotra": "Atri",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Aries",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_16",
+      "firstName": "Puneet",
+      "lastName": "Grover",
+      "gender": "Male",
+      "dob": "2002-07-26",
+      "age": 24,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 170,
+      "email": "puneet.grover@example.com",
+      "phone": "+91 92329 22433",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Product Manager",
+        "income": 5500000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Gemini",
+        "nakshatra": "Krittika"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_17",
+      "firstName": "Arjun",
+      "lastName": "Pandey",
+      "gender": "Male",
+      "dob": "1992-06-10",
+      "age": 34,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 170,
+      "email": "arjun.pandey@example.com",
+      "phone": "+91 83557 41744",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Design Lead",
+        "income": 5300000
+      },
+      "family": {
+        "siblings": "2 brothers",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Jat Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Gemini",
+        "nakshatra": "Punarvasu"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_18",
+      "firstName": "Amit",
+      "lastName": "Pillai",
+      "gender": "Male",
+      "dob": "1996-12-22",
+      "age": 30,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 169,
+      "email": "amit.pillai@example.com",
+      "phone": "+91 93984 22294",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "HDFC Bank",
+        "designation": "Marketing Lead",
+        "income": 3300000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Haritas",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Leo",
+        "nakshatra": "Chitra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_19",
+      "firstName": "Rohan",
+      "lastName": "Pillai",
+      "gender": "Male",
+      "dob": "1994-02-28",
+      "age": 32,
+      "city": "Pune",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 186,
+      "email": "rohan.pillai@example.com",
+      "phone": "+91 95925 29376",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Design Lead",
+        "income": 5400000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Jat Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Cancer",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_20",
+      "firstName": "Sandeep",
+      "lastName": "Shetty",
+      "gender": "Male",
+      "dob": "1996-12-14",
+      "age": 30,
+      "city": "Chennai",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 185,
+      "email": "sandeep.shetty@example.com",
+      "phone": "+91 84574 85819",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "HR Specialist",
+        "income": 1400000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Gemini",
+        "nakshatra": "Magha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_21",
+      "firstName": "Akash",
+      "lastName": "Pandey",
+      "gender": "Male",
+      "dob": "1997-11-16",
+      "age": 29,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 179,
+      "email": "akash.pandey@example.com",
+      "phone": "+91 94612 53812",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "HR Specialist",
+        "income": 2900000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Aries",
+        "nakshatra": "Chitra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_22",
+      "firstName": "Chinmay",
+      "lastName": "Sen",
+      "gender": "Male",
+      "dob": "1992-08-25",
+      "age": 34,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 176,
+      "email": "chinmay.sen@example.com",
+      "phone": "+91 86517 95236",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "Financial Analyst",
+        "income": 3400000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Sagittarius",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_23",
+      "firstName": "Puneet",
+      "lastName": "Patel",
+      "gender": "Male",
+      "dob": "1991-11-18",
+      "age": 35,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'8\"",
+      "heightCm": 172,
+      "email": "puneet.patel@example.com",
+      "phone": "+91 86317 19889",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Medical Practitioner",
+        "income": 1200000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Vaishya",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aries",
+        "nakshatra": "Ardra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_24",
+      "firstName": "Gaurav",
+      "lastName": "Trivedi",
+      "gender": "Male",
+      "dob": "1992-04-05",
+      "age": 34,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "gaurav.trivedi@example.com",
+      "phone": "+91 70602 53945",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Medical Practitioner",
+        "income": 1700000
+      },
+      "family": {
+        "siblings": "3 younger sisters",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Kashyap",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Scorpio",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_25",
+      "firstName": "Shivam",
+      "lastName": "Sen",
+      "gender": "Male",
+      "dob": "2000-09-16",
+      "age": 26,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 178,
+      "email": "shivam.sen@example.com",
+      "phone": "+91 74484 38563",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Design Lead",
+        "income": 6000000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Capricorn",
+        "nakshatra": "Moola"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_26",
+      "firstName": "Vihan",
+      "lastName": "Mehta",
+      "gender": "Male",
+      "dob": "1997-03-12",
+      "age": 29,
+      "city": "Chennai",
+      "country": "India",
+      "height": "6'2\"",
+      "heightCm": 188,
+      "email": "vihan.mehta@example.com",
+      "phone": "+91 88811 34211",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Senior Software Engineer",
+        "income": 4900000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Jat Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Pisces",
+        "nakshatra": "Mrigasira"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_27",
+      "firstName": "Yash",
+      "lastName": "Deshmukh",
+      "gender": "Male",
+      "dob": "1993-06-04",
+      "age": 33,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 170,
+      "email": "yash.deshmukh@example.com",
+      "phone": "+91 95692 17834",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Medical Practitioner",
+        "income": 4000000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Virgo",
+        "nakshatra": "Krittika"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_28",
+      "firstName": "Kabir",
+      "lastName": "Grover",
+      "gender": "Male",
+      "dob": "1992-03-17",
+      "age": 34,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'8\"",
+      "heightCm": 172,
+      "email": "kabir.grover@example.com",
+      "phone": "+91 93130 33993",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Product Manager",
+        "income": 2200000
+      },
+      "family": {
+        "siblings": "2 brothers",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Gemini",
+        "nakshatra": "Moola"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_29",
+      "firstName": "Siddhesh",
+      "lastName": "Rao",
+      "gender": "Male",
+      "dob": "1994-11-14",
+      "age": 32,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 174,
+      "email": "siddhesh.rao@example.com",
+      "phone": "+91 93267 75986",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Consultant",
+        "income": 2900000
+      },
+      "family": {
+        "siblings": "2 sisters",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Vaishya",
+        "gotra": "Vashishta",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aquarius",
+        "nakshatra": "Moola"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_30",
+      "firstName": "Siddhesh",
+      "lastName": "Bhatia",
+      "gender": "Male",
+      "dob": "1995-09-06",
+      "age": 31,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 185,
+      "email": "siddhesh.bhatia@example.com",
+      "phone": "+91 72763 79507",
+      "education": {
+        "college": "BITS Pilani",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Data Scientist",
+        "income": 4800000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Haritas",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Aquarius",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_31",
+      "firstName": "Manish",
+      "lastName": "Singh",
+      "gender": "Male",
+      "dob": "1999-12-14",
+      "age": 27,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 170,
+      "email": "manish.singh@example.com",
+      "phone": "+91 94904 24672",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Marketing Lead",
+        "income": 1000000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "No",
+        "rashi": "Aries",
+        "nakshatra": "Dhanishta"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_32",
+      "firstName": "Mayank",
+      "lastName": "Pandey",
+      "gender": "Male",
+      "dob": "1991-04-04",
+      "age": 35,
+      "city": "Chennai",
+      "country": "India",
+      "height": "6'0\"",
+      "heightCm": 183,
+      "email": "mayank.pandey@example.com",
+      "phone": "+91 77138 21911",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Data Scientist",
+        "income": 1300000
+      },
+      "family": {
+        "siblings": "2 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Kashyap",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Scorpio",
+        "nakshatra": "Chitra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_33",
+      "firstName": "Rohan",
+      "lastName": "Patil",
+      "gender": "Male",
+      "dob": "1992-11-11",
+      "age": 34,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 179,
+      "email": "rohan.patil@example.com",
+      "phone": "+91 85621 78971",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Data Scientist",
+        "income": 1700000
+      },
+      "family": {
+        "siblings": "3 younger sisters",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Angiras",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Aries",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_34",
+      "firstName": "Siddharth",
+      "lastName": "Shah",
+      "gender": "Male",
+      "dob": "1992-08-05",
+      "age": 34,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "6'0\"",
+      "heightCm": 184,
+      "email": "siddharth.shah@example.com",
+      "phone": "+91 73166 89191",
+      "education": {
+        "college": "RV College of Engineering",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Software Engineer",
+        "income": 2300000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Taurus",
+        "nakshatra": "Krittika"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_35",
+      "firstName": "Arjun",
+      "lastName": "Deshmukh",
+      "gender": "Male",
+      "dob": "1997-10-12",
+      "age": 29,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "arjun.deshmukh@example.com",
+      "phone": "+91 74097 41857",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Senior Software Engineer",
+        "income": 4900000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Reddy",
+        "gotra": "Atri",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "No",
+        "rashi": "Aries",
+        "nakshatra": "Jyeshta"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_36",
+      "firstName": "Rahul",
+      "lastName": "Sen",
+      "gender": "Male",
+      "dob": "1997-08-16",
+      "age": 29,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 179,
+      "email": "rahul.sen@example.com",
+      "phone": "+91 72144 57191",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "HR Specialist",
+        "income": 4300000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Gemini",
+        "nakshatra": "Aslesha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_37",
+      "firstName": "Kunal",
+      "lastName": "Sen",
+      "gender": "Male",
+      "dob": "1994-03-16",
+      "age": 32,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 177,
+      "email": "kunal.sen@example.com",
+      "phone": "+91 70578 28037",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "Software Engineer",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Pisces",
+        "nakshatra": "Uttarabhadrapada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_38",
+      "firstName": "Manish",
+      "lastName": "Verma",
+      "gender": "Male",
+      "dob": "1994-02-27",
+      "age": 32,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 186,
+      "email": "manish.verma@example.com",
+      "phone": "+91 90872 44123",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Product Manager",
+        "income": 5800000
+      },
+      "family": {
+        "siblings": "2 younger sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Syrian Christian",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Gemini",
+        "nakshatra": "Bharani"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_39",
+      "firstName": "Varun",
+      "lastName": "Bhatia",
+      "gender": "Male",
+      "dob": "1999-05-03",
+      "age": 27,
+      "city": "Pune",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 185,
+      "email": "varun.bhatia@example.com",
+      "phone": "+91 87947 89134",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Product Manager",
+        "income": 4700000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Sagittarius",
+        "nakshatra": "Revati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_40",
+      "firstName": "Kabir",
+      "lastName": "Sen",
+      "gender": "Male",
+      "dob": "1992-09-07",
+      "age": 34,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'11\"",
+      "heightCm": 181,
+      "email": "kabir.sen@example.com",
+      "phone": "+91 84281 97679",
+      "education": {
+        "college": "BITS Pilani",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "Financial Analyst",
+        "income": 2500000
+      },
+      "family": {
+        "siblings": "2 sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Cancer",
+        "nakshatra": "Magha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_41",
+      "firstName": "Chinmay",
+      "lastName": "Saxena",
+      "gender": "Male",
+      "dob": "1994-08-24",
+      "age": 32,
+      "city": "Ahmedabad",
+      "country": "India",
+      "height": "6'2\"",
+      "heightCm": 188,
+      "email": "chinmay.saxena@example.com",
+      "phone": "+91 87721 95129",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Senior Software Engineer",
+        "income": 4900000
+      },
+      "family": {
+        "siblings": "3 younger sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Syrian Christian",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Capricorn",
+        "nakshatra": "Punarvasu"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_42",
+      "firstName": "Rohit",
+      "lastName": "Pandey",
+      "gender": "Male",
+      "dob": "1991-08-20",
+      "age": 35,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 178,
+      "email": "rohit.pandey@example.com",
+      "phone": "+91 97007 75142",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "Marketing Lead",
+        "income": 4400000
+      },
+      "family": {
+        "siblings": "2 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Cancer",
+        "nakshatra": "Revati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_43",
+      "firstName": "Vivek",
+      "lastName": "Patel",
+      "gender": "Male",
+      "dob": "2002-04-26",
+      "age": 24,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 179,
+      "email": "vivek.patel@example.com",
+      "phone": "+91 77736 18410",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "Software Engineer",
+        "income": 600000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Reddy",
+        "gotra": "Kashyap",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Scorpio",
+        "nakshatra": "Magha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_44",
+      "firstName": "Shashank",
+      "lastName": "Joshi",
+      "gender": "Male",
+      "dob": "1995-06-28",
+      "age": 31,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 174,
+      "email": "shashank.joshi@example.com",
+      "phone": "+91 98991 43594",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Financial Analyst",
+        "income": 2200000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Pisces",
+        "nakshatra": "Anuradha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_45",
+      "firstName": "Kunal",
+      "lastName": "Nair",
+      "gender": "Male",
+      "dob": "2003-10-22",
+      "age": 23,
+      "city": "Pune",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 186,
+      "email": "kunal.nair@example.com",
+      "phone": "+91 70499 51242",
+      "education": {
+        "college": "BITS Pilani",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Product Manager",
+        "income": 5200000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Gautam",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Scorpio",
+        "nakshatra": "Magha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_46",
+      "firstName": "Mayank",
+      "lastName": "Chatterjee",
+      "gender": "Male",
+      "dob": "2001-03-17",
+      "age": 25,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 168,
+      "email": "mayank.chatterjee@example.com",
+      "phone": "+91 90893 36696",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Product Manager",
+        "income": 2400000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Aquarius",
+        "nakshatra": "Ardra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_47",
+      "firstName": "Pranav",
+      "lastName": "Gupta",
+      "gender": "Male",
+      "dob": "1995-03-01",
+      "age": 31,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "pranav.gupta@example.com",
+      "phone": "+91 83308 47007",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Marketing Lead",
+        "income": 1200000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Vaishya",
+        "gotra": "Angiras",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Capricorn",
+        "nakshatra": "Anuradha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_48",
+      "firstName": "Varun",
+      "lastName": "Pillai",
+      "gender": "Male",
+      "dob": "1996-02-01",
+      "age": 30,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 174,
+      "email": "varun.pillai@example.com",
+      "phone": "+91 74054 53406",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Financial Analyst",
+        "income": 4700000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Kashyap",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Scorpio",
+        "nakshatra": "Revati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_49",
+      "firstName": "Nikhil",
+      "lastName": "Pillai",
+      "gender": "Male",
+      "dob": "1994-04-15",
+      "age": 32,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "6'2\"",
+      "heightCm": 187,
+      "email": "nikhil.pillai@example.com",
+      "phone": "+91 87687 63996",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Design Lead",
+        "income": 900000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "No",
+        "rashi": "Taurus",
+        "nakshatra": "Bharani"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_50",
+      "firstName": "Tushar",
+      "lastName": "Dubey",
+      "gender": "Male",
+      "dob": "1997-03-24",
+      "age": 29,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 168,
+      "email": "tushar.dubey@example.com",
+      "phone": "+91 78122 38113",
+      "education": {
+        "college": "Christ University",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Financial Analyst",
+        "income": 1300000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Aquarius",
+        "nakshatra": "Uttaraphalguni"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_51",
+      "firstName": "Sandeep",
+      "lastName": "Deshmukh",
+      "gender": "Male",
+      "dob": "2003-08-20",
+      "age": 23,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 185,
+      "email": "sandeep.deshmukh@example.com",
+      "phone": "+91 94813 12210",
+      "education": {
+        "college": "BITS Pilani",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Data Scientist",
+        "income": 5300000
+      },
+      "family": {
+        "siblings": "2 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Maratha",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Sagittarius",
+        "nakshatra": "Aslesha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_52",
+      "firstName": "Vikram",
+      "lastName": "Chaudhary",
+      "gender": "Male",
+      "dob": "2000-10-26",
+      "age": 26,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "6'0\"",
+      "heightCm": 184,
+      "email": "vikram.chaudhary@example.com",
+      "phone": "+91 86011 98315",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "HR Specialist",
+        "income": 2300000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Kashyap",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Aquarius",
+        "nakshatra": "Swati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_53",
+      "firstName": "Varun",
+      "lastName": "Shetty",
+      "gender": "Male",
+      "dob": "2002-01-05",
+      "age": 24,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'12\"",
+      "heightCm": 182,
+      "email": "varun.shetty@example.com",
+      "phone": "+91 98095 26741",
+      "education": {
+        "college": "Christ University",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Data Scientist",
+        "income": 6000000
+      },
+      "family": {
+        "siblings": "1 brother",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Aquarius",
+        "nakshatra": "Jyeshta"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_54",
+      "firstName": "Akshay",
+      "lastName": "Mishra",
+      "gender": "Male",
+      "dob": "1994-07-04",
+      "age": 32,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 169,
+      "email": "akshay.mishra@example.com",
+      "phone": "+91 70004 18230",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Data Scientist",
+        "income": 1300000
+      },
+      "family": {
+        "siblings": "3 younger sisters",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Aries",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_55",
+      "firstName": "Tushar",
+      "lastName": "Gupta",
+      "gender": "Male",
+      "dob": "1996-11-04",
+      "age": 30,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "6'2\"",
+      "heightCm": 187,
+      "email": "tushar.gupta@example.com",
+      "phone": "+91 72158 77261",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Marketing Lead",
+        "income": 600000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Scorpio",
+        "nakshatra": "Uttaraphalguni"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_56",
+      "firstName": "Yash",
+      "lastName": "Saxena",
+      "gender": "Male",
+      "dob": "2002-10-08",
+      "age": 24,
+      "city": "Pune",
+      "country": "India",
+      "height": "6'1\"",
+      "heightCm": 186,
+      "email": "yash.saxena@example.com",
+      "phone": "+91 91676 33272",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Medical Practitioner",
+        "income": 2500000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Libra",
+        "nakshatra": "Krittika"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_57",
+      "firstName": "Rajat",
+      "lastName": "Deshmukh",
+      "gender": "Male",
+      "dob": "2003-10-14",
+      "age": 23,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 178,
+      "email": "rajat.deshmukh@example.com",
+      "phone": "+91 90568 21613",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Data Scientist",
+        "income": 3000000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Vaishya",
+        "gotra": "Vashishta",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Scorpio",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_58",
+      "firstName": "Karthik",
+      "lastName": "Singh",
+      "gender": "Male",
+      "dob": "1999-07-27",
+      "age": 27,
+      "city": "Chennai",
+      "country": "India",
+      "height": "6'0\"",
+      "heightCm": 183,
+      "email": "karthik.singh@example.com",
+      "phone": "+91 76020 98452",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Medical Practitioner",
+        "income": 2400000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Taurus",
+        "nakshatra": "Uttaraphalguni"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_59",
+      "firstName": "Puneet",
+      "lastName": "Joshi",
+      "gender": "Male",
+      "dob": "1996-08-06",
+      "age": 30,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'10\"",
+      "heightCm": 177,
+      "email": "puneet.joshi@example.com",
+      "phone": "+91 87835 53271",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "HR Specialist",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Reddy",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Virgo",
+        "nakshatra": "Krittika"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_m_60",
+      "firstName": "Sameer",
+      "lastName": "Pandey",
+      "gender": "Male",
+      "dob": "1997-01-20",
+      "age": 29,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "6'0\"",
+      "heightCm": 183,
+      "email": "sameer.pandey@example.com",
+      "phone": "+91 94772 70050",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Data Scientist",
+        "income": 2300000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Jat Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Scorpio",
+        "nakshatra": "Uttaraphalguni"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_1",
+      "firstName": "Komal",
+      "lastName": "Sharma",
+      "gender": "Female",
+      "dob": "1993-04-27",
+      "age": 33,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 165,
+      "email": "komal.sharma@example.com",
+      "phone": "+91 92860 83938",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Marketing Lead",
+        "income": 2900000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Angiras",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Taurus",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_2",
+      "firstName": "Nikita",
+      "lastName": "Patel",
+      "gender": "Female",
+      "dob": "1991-08-22",
+      "age": 35,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'3\"",
+      "heightCm": 161,
+      "email": "nikita.patel@example.com",
+      "phone": "+91 83180 27220",
+      "education": {
+        "college": "ISB Hyderabad (MBA)",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Marketing Lead",
+        "income": 4100000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Jat Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Virgo",
+        "nakshatra": "Krittika"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_3",
+      "firstName": "Anjali",
+      "lastName": "Singh",
+      "gender": "Female",
+      "dob": "2000-10-05",
+      "age": 26,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 166,
+      "email": "anjali.singh@example.com",
+      "phone": "+91 70495 45706",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Design Lead",
+        "income": 2000000
+      },
+      "family": {
+        "siblings": "2 sisters",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Pisces",
+        "nakshatra": "Hasta"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_4",
+      "firstName": "Nidhi",
+      "lastName": "Nair",
+      "gender": "Female",
+      "dob": "2000-08-14",
+      "age": 26,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 167,
+      "email": "nidhi.nair@example.com",
+      "phone": "+91 97068 13437",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Data Scientist",
+        "income": 1900000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Khatri",
+        "gotra": "Gautam",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Virgo",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_5",
+      "firstName": "Sonali",
+      "lastName": "Shetty",
+      "gender": "Female",
+      "dob": "1997-03-19",
+      "age": 29,
+      "city": "Ahmedabad",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "sonali.shetty@example.com",
+      "phone": "+91 73345 61493",
+      "education": {
+        "college": "Christ University",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Product Manager",
+        "income": 4200000
+      },
+      "family": {
+        "siblings": "2 sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Vaishya",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Pisces",
+        "nakshatra": "Krittika"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_6",
+      "firstName": "Ananya",
+      "lastName": "Chatterjee",
+      "gender": "Female",
+      "dob": "2000-07-04",
+      "age": 26,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'1\"",
+      "heightCm": 155,
+      "email": "ananya.chatterjee@example.com",
+      "phone": "+91 78432 14248",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "HDFC Bank",
+        "designation": "Consultant",
+        "income": 5900000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Atri",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Aquarius",
+        "nakshatra": "Aslesha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_7",
+      "firstName": "Avani",
+      "lastName": "Gupta",
+      "gender": "Female",
+      "dob": "1997-01-15",
+      "age": 29,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'4\"",
+      "heightCm": 163,
+      "email": "avani.gupta@example.com",
+      "phone": "+91 96671 80621",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Medical Practitioner",
+        "income": 4600000
+      },
+      "family": {
+        "siblings": "1 brother",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Aquarius",
+        "nakshatra": "Anuradha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_8",
+      "firstName": "Bhavna",
+      "lastName": "Trivedi",
+      "gender": "Female",
+      "dob": "1999-04-27",
+      "age": 27,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "bhavna.trivedi@example.com",
+      "phone": "+91 98643 31542",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Senior Software Engineer",
+        "income": 1400000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Maratha",
+        "gotra": "Haritas",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Aquarius",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_9",
+      "firstName": "Priyanka",
+      "lastName": "Patil",
+      "gender": "Female",
+      "dob": "1995-11-04",
+      "age": 31,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "priyanka.patil@example.com",
+      "phone": "+91 90348 66213",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Consultant",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "2 sisters",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Maratha",
+        "gotra": "Gautam",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Gemini",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_10",
+      "firstName": "Sakshi",
+      "lastName": "Verma",
+      "gender": "Female",
+      "dob": "1991-05-05",
+      "age": 35,
+      "city": "Ahmedabad",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "sakshi.verma@example.com",
+      "phone": "+91 85461 34419",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Marketing Lead",
+        "income": 1100000
+      },
+      "family": {
+        "siblings": "2 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Capricorn",
+        "nakshatra": "Rohini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_11",
+      "firstName": "Shreya",
+      "lastName": "Verma",
+      "gender": "Female",
+      "dob": "1997-08-27",
+      "age": 29,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'2\"",
+      "heightCm": 157,
+      "email": "shreya.verma@example.com",
+      "phone": "+91 91510 86356",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Software Engineer",
+        "income": 4600000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Virgo",
+        "nakshatra": "Rohini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_12",
+      "firstName": "Ridhima",
+      "lastName": "Nair",
+      "gender": "Female",
+      "dob": "2000-03-28",
+      "age": 26,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "ridhima.nair@example.com",
+      "phone": "+91 86326 91542",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Marketing Lead",
+        "income": 2400000
+      },
+      "family": {
+        "siblings": "2 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Syrian Christian",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Libra",
+        "nakshatra": "Uttarashada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_13",
+      "firstName": "Vaidehi",
+      "lastName": "Joshi",
+      "gender": "Female",
+      "dob": "1993-09-20",
+      "age": 33,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'2\"",
+      "heightCm": 158,
+      "email": "vaidehi.joshi@example.com",
+      "phone": "+91 82951 29307",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Software Engineer",
+        "income": 3900000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Haritas",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Sagittarius",
+        "nakshatra": "Hasta"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_14",
+      "firstName": "Richa",
+      "lastName": "Banerjee",
+      "gender": "Female",
+      "dob": "1994-08-12",
+      "age": 32,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'3\"",
+      "heightCm": 159,
+      "email": "richa.banerjee@example.com",
+      "phone": "+91 78573 72733",
+      "education": {
+        "college": "Christ University",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Product Manager",
+        "income": 3100000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Nair",
+        "gotra": "Angiras",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aries",
+        "nakshatra": "Aslesha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_15",
+      "firstName": "Diya",
+      "lastName": "Sen",
+      "gender": "Female",
+      "dob": "1994-03-15",
+      "age": 32,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'3\"",
+      "heightCm": 160,
+      "email": "diya.sen@example.com",
+      "phone": "+91 93853 72023",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Product Manager",
+        "income": 5900000
+      },
+      "family": {
+        "siblings": "1 brother",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Atri",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Cancer",
+        "nakshatra": "Poorvabhadrapada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_16",
+      "firstName": "Sneha",
+      "lastName": "Malhotra",
+      "gender": "Female",
+      "dob": "2003-02-12",
+      "age": 23,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 166,
+      "email": "sneha.malhotra@example.com",
+      "phone": "+91 93508 55465",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Design Lead",
+        "income": 3400000
+      },
+      "family": {
+        "siblings": "1 younger sister",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Sikh",
+        "caste": "Jat Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Scorpio",
+        "nakshatra": "Bharani"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_17",
+      "firstName": "Sakshi",
+      "lastName": "Bhatia",
+      "gender": "Female",
+      "dob": "1992-09-13",
+      "age": 34,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 164,
+      "email": "sakshi.bhatia@example.com",
+      "phone": "+91 88706 88623",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Data Scientist",
+        "income": 2300000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Sagittarius",
+        "nakshatra": "Rohini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_18",
+      "firstName": "Meera",
+      "lastName": "Rao",
+      "gender": "Female",
+      "dob": "1997-09-18",
+      "age": 29,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "meera.rao@example.com",
+      "phone": "+91 83623 23989",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Consultant",
+        "income": 5800000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Libra",
+        "nakshatra": "Uttarashada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_19",
+      "firstName": "Mansi",
+      "lastName": "Kumar",
+      "gender": "Female",
+      "dob": "1994-01-02",
+      "age": 32,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "mansi.kumar@example.com",
+      "phone": "+91 71522 53294",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Product Manager",
+        "income": 2400000
+      },
+      "family": {
+        "siblings": "2 sisters",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Capricorn",
+        "nakshatra": "Aslesha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_20",
+      "firstName": "Rhea",
+      "lastName": "Chatterjee",
+      "gender": "Female",
+      "dob": "2000-09-26",
+      "age": 26,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "rhea.chatterjee@example.com",
+      "phone": "+91 70581 40852",
+      "education": {
+        "college": "ISB Hyderabad (MBA)",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "Medical Practitioner",
+        "income": 1500000
+      },
+      "family": {
+        "siblings": "2 younger sisters",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Libra",
+        "nakshatra": "Magha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_21",
+      "firstName": "Vaidehi",
+      "lastName": "Reddy",
+      "gender": "Female",
+      "dob": "1992-07-18",
+      "age": 34,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'2\"",
+      "heightCm": 158,
+      "email": "vaidehi.reddy@example.com",
+      "phone": "+91 99018 44337",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Financial Analyst",
+        "income": 2700000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Maratha",
+        "gotra": "Kashyap",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Leo",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_22",
+      "firstName": "Anjali",
+      "lastName": "Banerjee",
+      "gender": "Female",
+      "dob": "1996-01-02",
+      "age": 30,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "anjali.banerjee@example.com",
+      "phone": "+91 72496 56912",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Medical Practitioner",
+        "income": 2400000
+      },
+      "family": {
+        "siblings": "2 elder brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Angiras",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Gemini",
+        "nakshatra": "Jyeshta"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_23",
+      "firstName": "Diya",
+      "lastName": "Verma",
+      "gender": "Female",
+      "dob": "1998-10-11",
+      "age": 28,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "diya.verma@example.com",
+      "phone": "+91 92669 74722",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Financial Analyst",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Capricorn",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_24",
+      "firstName": "Aastha",
+      "lastName": "Trivedi",
+      "gender": "Female",
+      "dob": "2003-05-26",
+      "age": 23,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'0\"",
+      "heightCm": 153,
+      "email": "aastha.trivedi@example.com",
+      "phone": "+91 96985 13280",
+      "education": {
+        "college": "RV College of Engineering",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "HR Specialist",
+        "income": 1800000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Nair",
+        "gotra": "Angiras",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Libra",
+        "nakshatra": "Poorvaphalguni"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_25",
+      "firstName": "Shalini",
+      "lastName": "Sen",
+      "gender": "Female",
+      "dob": "1997-03-19",
+      "age": 29,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'4\"",
+      "heightCm": 162,
+      "email": "shalini.sen@example.com",
+      "phone": "+91 91487 72199",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Data Scientist",
+        "income": 3600000
+      },
+      "family": {
+        "siblings": "1 younger sister",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Khatri",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aquarius",
+        "nakshatra": "Bharani"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_26",
+      "firstName": "Divya",
+      "lastName": "Grover",
+      "gender": "Female",
+      "dob": "2001-12-11",
+      "age": 25,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'8\"",
+      "heightCm": 172,
+      "email": "divya.grover@example.com",
+      "phone": "+91 77944 46580",
+      "education": {
+        "college": "RV College of Engineering",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Marketing Lead",
+        "income": 1300000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Gemini",
+        "nakshatra": "Bharani"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_27",
+      "firstName": "Aastha",
+      "lastName": "Malhotra",
+      "gender": "Female",
+      "dob": "1996-07-24",
+      "age": 30,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'4\"",
+      "heightCm": 162,
+      "email": "aastha.malhotra@example.com",
+      "phone": "+91 73140 78065",
+      "education": {
+        "college": "Christ University",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Design Lead",
+        "income": 2100000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Gautam",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "No",
+        "rashi": "Scorpio",
+        "nakshatra": "Chitra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_28",
+      "firstName": "Sakshi",
+      "lastName": "Banerjee",
+      "gender": "Female",
+      "dob": "1998-09-04",
+      "age": 28,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 164,
+      "email": "sakshi.banerjee@example.com",
+      "phone": "+91 92338 55783",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Financial Analyst",
+        "income": 6000000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Nair",
+        "gotra": "Vashishta",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Leo",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_29",
+      "firstName": "Snehal",
+      "lastName": "Kapoor",
+      "gender": "Female",
+      "dob": "1999-09-23",
+      "age": 27,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'8\"",
+      "heightCm": 172,
+      "email": "snehal.kapoor@example.com",
+      "phone": "+91 81433 16995",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "HR Specialist",
+        "income": 900000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Libra",
+        "nakshatra": "Bharani"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_30",
+      "firstName": "Pooja",
+      "lastName": "Singh",
+      "gender": "Female",
+      "dob": "2003-12-25",
+      "age": 23,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 166,
+      "email": "pooja.singh@example.com",
+      "phone": "+91 70327 20681",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "Consultant",
+        "income": 3800000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Gautam",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Cancer",
+        "nakshatra": "Dhanishta"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_31",
+      "firstName": "Garima",
+      "lastName": "Nair",
+      "gender": "Female",
+      "dob": "1999-10-19",
+      "age": 27,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'1\"",
+      "heightCm": 154,
+      "email": "garima.nair@example.com",
+      "phone": "+91 72273 82872",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Marketing Lead",
+        "income": 5100000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Haritas",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Scorpio",
+        "nakshatra": "Chitra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_32",
+      "firstName": "Deepika",
+      "lastName": "Bhatia",
+      "gender": "Female",
+      "dob": "1992-08-10",
+      "age": 34,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 164,
+      "email": "deepika.bhatia@example.com",
+      "phone": "+91 81512 77802",
+      "education": {
+        "college": "RV College of Engineering",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Consultant",
+        "income": 1800000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Scorpio",
+        "nakshatra": "Mrigasira"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_33",
+      "firstName": "Barkha",
+      "lastName": "Pillai",
+      "gender": "Female",
+      "dob": "1993-10-19",
+      "age": 33,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "barkha.pillai@example.com",
+      "phone": "+91 78227 42480",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Financial Analyst",
+        "income": 5200000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Libra",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_34",
+      "firstName": "Barkha",
+      "lastName": "Chaudhary",
+      "gender": "Female",
+      "dob": "1992-08-06",
+      "age": 34,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'3\"",
+      "heightCm": 160,
+      "email": "barkha.chaudhary@example.com",
+      "phone": "+91 71142 37567",
+      "education": {
+        "college": "RV College of Engineering",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Software Engineer",
+        "income": 1900000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Angiras",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Taurus",
+        "nakshatra": "Aswini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_35",
+      "firstName": "Shruti",
+      "lastName": "Verma",
+      "gender": "Female",
+      "dob": "1996-11-06",
+      "age": 30,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "shruti.verma@example.com",
+      "phone": "+91 89219 22175",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Medical Practitioner",
+        "income": 1500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Haritas",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Cancer",
+        "nakshatra": "Mrigasira"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_36",
+      "firstName": "Neha",
+      "lastName": "Bhatia",
+      "gender": "Female",
+      "dob": "1996-09-14",
+      "age": 30,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'1\"",
+      "heightCm": 156,
+      "email": "neha.bhatia@example.com",
+      "phone": "+91 71974 93532",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "M.Tech"
+      },
+      "career": {
+        "company": "Amazon",
+        "designation": "Design Lead",
+        "income": 3000000
+      },
+      "family": {
+        "siblings": "2 younger sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Maratha",
+        "gotra": "Sandilya",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Capricorn",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_37",
+      "firstName": "Sneha",
+      "lastName": "Patel",
+      "gender": "Female",
+      "dob": "1992-02-07",
+      "age": 34,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 175,
+      "email": "sneha.patel@example.com",
+      "phone": "+91 83658 11613",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Software Engineer",
+        "income": 1400000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Brahmin",
+        "gotra": "Vashishta",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Virgo",
+        "nakshatra": "Ardra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_38",
+      "firstName": "Nikita",
+      "lastName": "Sen",
+      "gender": "Female",
+      "dob": "2003-01-20",
+      "age": 23,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 168,
+      "email": "nikita.sen@example.com",
+      "phone": "+91 82987 25372",
+      "education": {
+        "college": "BITS Pilani",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Software Engineer",
+        "income": 4300000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Taurus",
+        "nakshatra": "Poorvabhadrapada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_39",
+      "firstName": "Priya",
+      "lastName": "Grover",
+      "gender": "Female",
+      "dob": "1994-03-07",
+      "age": 32,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 169,
+      "email": "priya.grover@example.com",
+      "phone": "+91 83834 91814",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Flipkart",
+        "designation": "Design Lead",
+        "income": 3400000
+      },
+      "family": {
+        "siblings": "3 brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Kayastha",
+        "gotra": "Haritas",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "No",
+        "rashi": "Leo",
+        "nakshatra": "Revati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_40",
+      "firstName": "Tanvi",
+      "lastName": "Bhatia",
+      "gender": "Female",
+      "dob": "1993-12-08",
+      "age": 33,
+      "city": "Ahmedabad",
+      "country": "India",
+      "height": "5'2\"",
+      "heightCm": 158,
+      "email": "tanvi.bhatia@example.com",
+      "phone": "+91 73341 84694",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Design Lead",
+        "income": 1500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Sikh",
+        "caste": "Jat Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Homemaker"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Capricorn",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_41",
+      "firstName": "Shreya",
+      "lastName": "Bhatia",
+      "gender": "Female",
+      "dob": "2001-08-19",
+      "age": 25,
+      "city": "Ahmedabad",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 168,
+      "email": "shreya.bhatia@example.com",
+      "phone": "+91 91370 51214",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Senior Software Engineer",
+        "income": 3000000
+      },
+      "family": {
+        "siblings": "3 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aquarius",
+        "nakshatra": "Anuradha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_42",
+      "firstName": "Anjali",
+      "lastName": "Joshi",
+      "gender": "Female",
+      "dob": "1995-07-26",
+      "age": 31,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'2\"",
+      "heightCm": 158,
+      "email": "anjali.joshi@example.com",
+      "phone": "+91 81687 64494",
+      "education": {
+        "college": "SRCC Delhi",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Tata Motors",
+        "designation": "Financial Analyst",
+        "income": 3800000
+      },
+      "family": {
+        "siblings": "2 younger sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Yes",
+        "openToRelocate": "No",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aries",
+        "nakshatra": "Anuradha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_43",
+      "firstName": "Sneha",
+      "lastName": "Sharma",
+      "gender": "Female",
+      "dob": "1993-05-11",
+      "age": 33,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'3\"",
+      "heightCm": 161,
+      "email": "sneha.sharma@example.com",
+      "phone": "+91 90055 61331",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Marketing Lead",
+        "income": 4400000
+      },
+      "family": {
+        "siblings": "3 younger sisters",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Oswal",
+        "gotra": "Angiras",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Gemini",
+        "nakshatra": "Revati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_44",
+      "firstName": "Avani",
+      "lastName": "Saxena",
+      "gender": "Female",
+      "dob": "1997-04-27",
+      "age": 29,
+      "city": "Bangalore",
+      "country": "India",
+      "height": "5'7\"",
+      "heightCm": 171,
+      "email": "avani.saxena@example.com",
+      "phone": "+91 94369 69449",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Ernst & Young",
+        "designation": "Product Manager",
+        "income": 1200000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Atri",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Gemini",
+        "nakshatra": "Rohini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_45",
+      "firstName": "Kiran",
+      "lastName": "Verma",
+      "gender": "Female",
+      "dob": "1996-09-16",
+      "age": 30,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'3\"",
+      "heightCm": 160,
+      "email": "kiran.verma@example.com",
+      "phone": "+91 99443 90163",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Marketing Lead",
+        "income": 3300000
+      },
+      "family": {
+        "siblings": "2 elder brothers",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Khatri Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Leo",
+        "nakshatra": "Rohini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_46",
+      "firstName": "Swati",
+      "lastName": "Sen",
+      "gender": "Female",
+      "dob": "1995-11-19",
+      "age": 31,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 168,
+      "email": "swati.sen@example.com",
+      "phone": "+91 71151 54224",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Consultant",
+        "income": 5400000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Leo",
+        "nakshatra": "Ardra"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_47",
+      "firstName": "Rhea",
+      "lastName": "Gupta",
+      "gender": "Female",
+      "dob": "1991-10-08",
+      "age": 35,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "5'3\"",
+      "heightCm": 160,
+      "email": "rhea.gupta@example.com",
+      "phone": "+91 89834 77705",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "MBBS"
+      },
+      "career": {
+        "company": "Microsoft",
+        "designation": "Software Engineer",
+        "income": 1500000
+      },
+      "family": {
+        "siblings": "2 brothers",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Capricorn",
+        "nakshatra": "Poorvabhadrapada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_48",
+      "firstName": "Kiran",
+      "lastName": "Malhotra",
+      "gender": "Female",
+      "dob": "1995-02-09",
+      "age": 31,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "kiran.malhotra@example.com",
+      "phone": "+91 73352 39866",
+      "education": {
+        "college": "IIT Bombay",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Zomato",
+        "designation": "Consultant",
+        "income": 2500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Syrian Christian",
+        "gotra": "N/A",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Libra",
+        "nakshatra": "Rohini"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_49",
+      "firstName": "Tanuja",
+      "lastName": "Singh",
+      "gender": "Female",
+      "dob": "1995-09-03",
+      "age": 31,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'4\"",
+      "heightCm": 163,
+      "email": "tanuja.singh@example.com",
+      "phone": "+91 71006 30521",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "LLB"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Senior Software Engineer",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Haritas",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Aries",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_50",
+      "firstName": "Priya",
+      "lastName": "Patil",
+      "gender": "Female",
+      "dob": "2000-11-06",
+      "age": 26,
+      "city": "Kolkata",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 174,
+      "email": "priya.patil@example.com",
+      "phone": "+91 76710 52082",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "McKinsey",
+        "designation": "HR Specialist",
+        "income": 3900000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Kshatriya",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Aries",
+        "nakshatra": "Satabhisha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_51",
+      "firstName": "Kiran",
+      "lastName": "Shetty",
+      "gender": "Female",
+      "dob": "2003-06-11",
+      "age": 23,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 164,
+      "email": "kiran.shetty@example.com",
+      "phone": "+91 93942 28489",
+      "education": {
+        "college": "Symbiosis Pune",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Deloitte",
+        "designation": "Data Scientist",
+        "income": 900000
+      },
+      "family": {
+        "siblings": "2 sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Agarwal Jain",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Bengali"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Capricorn",
+        "nakshatra": "Uttaraphalguni"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_52",
+      "firstName": "Aishwarya",
+      "lastName": "Sen",
+      "gender": "Female",
+      "dob": "1993-06-10",
+      "age": 33,
+      "city": "Ahmedabad",
+      "country": "India",
+      "height": "5'4\"",
+      "heightCm": 162,
+      "email": "aishwarya.sen@example.com",
+      "phone": "+91 76909 49969",
+      "education": {
+        "college": "NIT Trichy",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "HR Specialist",
+        "income": 1900000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Hindu",
+        "caste": "Brahmin",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "No",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Taurus",
+        "nakshatra": "Magha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_53",
+      "firstName": "Simran",
+      "lastName": "Mishra",
+      "gender": "Female",
+      "dob": "1995-09-25",
+      "age": 31,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 164,
+      "email": "simran.mishra@example.com",
+      "phone": "+91 84239 94860",
+      "education": {
+        "college": "BITS Pilani",
+        "degree": "B.Tech Computer Science"
+      },
+      "career": {
+        "company": "Razorpay",
+        "designation": "HR Specialist",
+        "income": 2600000
+      },
+      "family": {
+        "siblings": "None",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "Maybe",
+        "manglik": "Yes",
+        "rashi": "Virgo",
+        "nakshatra": "Swati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_54",
+      "firstName": "Kiran",
+      "lastName": "Chaudhary",
+      "gender": "Female",
+      "dob": "2002-01-06",
+      "age": 24,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 164,
+      "email": "kiran.chaudhary@example.com",
+      "phone": "+91 92203 34293",
+      "education": {
+        "college": "IIM Ahmedabad (MBA)",
+        "degree": "MBA"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "HR Specialist",
+        "income": 2600000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Liberal",
+        "religion": "Jain",
+        "caste": "Khandelwal",
+        "gotra": "Kaundinya",
+        "fatherOccupation": "Engineer",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Vegan",
+        "languages": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Cancer",
+        "nakshatra": "Aslesha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_55",
+      "firstName": "Rhea",
+      "lastName": "Kumar",
+      "gender": "Female",
+      "dob": "1994-11-21",
+      "age": 32,
+      "city": "Chennai",
+      "country": "India",
+      "height": "5'1\"",
+      "heightCm": 156,
+      "email": "rhea.kumar@example.com",
+      "phone": "+91 94418 57495",
+      "education": {
+        "college": "VIT Vellore",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "TCS",
+        "designation": "Marketing Lead",
+        "income": 4500000
+      },
+      "family": {
+        "siblings": "2 younger sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Christian",
+        "caste": "Protestant",
+        "gotra": "N/A",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Maybe",
+        "openToPets": "Maybe",
+        "manglik": "No",
+        "rashi": "Libra",
+        "nakshatra": "Swati"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_56",
+      "firstName": "Swati",
+      "lastName": "Rao",
+      "gender": "Female",
+      "dob": "1994-07-02",
+      "age": 32,
+      "city": "Jaipur",
+      "country": "India",
+      "height": "5'9\"",
+      "heightCm": 174,
+      "email": "swati.rao@example.com",
+      "phone": "+91 70578 69012",
+      "education": {
+        "college": "IIT Delhi",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "HR Specialist",
+        "income": 2400000
+      },
+      "family": {
+        "siblings": "1 elder brother",
+        "familyType": "Nuclear",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Vaishya",
+        "gotra": "Angiras",
+        "fatherOccupation": "Professor",
+        "motherOccupation": "School Teacher"
+      },
+      "lifestyle": {
+        "diet": "Non-Vegetarian",
+        "languages": [
+          "English",
+          "Tamil"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Yes",
+        "manglik": "Yes",
+        "rashi": "Sagittarius",
+        "nakshatra": "Poorvabhadrapada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_57",
+      "firstName": "Ananya",
+      "lastName": "Mishra",
+      "gender": "Female",
+      "dob": "2001-12-27",
+      "age": 25,
+      "city": "Hyderabad",
+      "country": "India",
+      "height": "5'5\"",
+      "heightCm": 164,
+      "email": "ananya.mishra@example.com",
+      "phone": "+91 95493 97040",
+      "education": {
+        "college": "Grant Medical College",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Product Manager",
+        "income": 600000
+      },
+      "family": {
+        "siblings": "3 younger sisters",
+        "familyType": "Joint",
+        "familyValues": "Traditional",
+        "religion": "Hindu",
+        "caste": "Kayastha",
+        "gotra": "Bharadwaj",
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Consultant"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Telugu"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Yes",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Sagittarius",
+        "nakshatra": "Poorvabhadrapada"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_58",
+      "firstName": "Garima",
+      "lastName": "Reddy",
+      "gender": "Female",
+      "dob": "1994-03-17",
+      "age": 32,
+      "city": "Mumbai",
+      "country": "India",
+      "height": "4'12\"",
+      "heightCm": 152,
+      "email": "garima.reddy@example.com",
+      "phone": "+91 77707 78345",
+      "education": {
+        "college": "ISB Hyderabad (MBA)",
+        "degree": "BA Economics"
+      },
+      "career": {
+        "company": "Google",
+        "designation": "Design Lead",
+        "income": 3300000
+      },
+      "family": {
+        "siblings": "1 sister",
+        "familyType": "Joint",
+        "familyValues": "Liberal",
+        "religion": "Sikh",
+        "caste": "Arora Sikh",
+        "gotra": "N/A",
+        "fatherOccupation": "Businessman",
+        "motherOccupation": "Govt Employee"
+      },
+      "lifestyle": {
+        "diet": "Eggetarian",
+        "languages": [
+          "English",
+          "Gujarati"
+        ]
+      },
+      "preferences": {
+        "wantKids": "No",
+        "openToRelocate": "Maybe",
+        "openToPets": "Yes",
+        "manglik": "No",
+        "rashi": "Libra",
+        "nakshatra": "Visakha"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_59",
+      "firstName": "Anjali",
+      "lastName": "Pillai",
+      "gender": "Female",
+      "dob": "2001-01-04",
+      "age": 25,
+      "city": "Delhi NCR",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 168,
+      "email": "anjali.pillai@example.com",
+      "phone": "+91 76521 85674",
+      "education": {
+        "college": "St. Xavier's College",
+        "degree": "BBA"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Software Engineer",
+        "income": 3600000
+      },
+      "family": {
+        "siblings": "3 sisters",
+        "familyType": "Nuclear",
+        "familyValues": "Moderate",
+        "religion": "Hindu",
+        "caste": "Khatri",
+        "gotra": "Angiras",
+        "fatherOccupation": "Doctor",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Jain",
+        "languages": [
+          "English",
+          "Kannada"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "No",
+        "openToPets": "No",
+        "manglik": "Yes",
+        "rashi": "Leo",
+        "nakshatra": "Poorvaphalguni"
+      },
+      "status": "Searching",
+      "notes": []
+    },
+    {
+      "id": "pool_f_60",
+      "firstName": "Pooja",
+      "lastName": "Patil",
+      "gender": "Female",
+      "dob": "1993-08-19",
+      "age": 33,
+      "city": "Pune",
+      "country": "India",
+      "height": "5'6\"",
+      "heightCm": 168,
+      "email": "pooja.patil@example.com",
+      "phone": "+91 83142 99506",
+      "education": {
+        "college": "Delhi Technological University",
+        "degree": "B.Com Honours"
+      },
+      "career": {
+        "company": "Infosys",
+        "designation": "Marketing Lead",
+        "income": 3100000
+      },
+      "family": {
+        "siblings": "1 brother",
+        "familyType": "Joint",
+        "familyValues": "Moderate",
+        "religion": "Christian",
+        "caste": "Roman Catholic",
+        "gotra": "N/A",
+        "fatherOccupation": "Architect",
+        "motherOccupation": "Bank Officer"
+      },
+      "lifestyle": {
+        "diet": "Vegetarian",
+        "languages": [
+          "English",
+          "Marathi"
+        ]
+      },
+      "preferences": {
+        "wantKids": "Maybe",
+        "openToRelocate": "Yes",
+        "openToPets": "Maybe",
+        "manglik": "Anshik (Partial)",
+        "rashi": "Virgo",
+        "nakshatra": "Ardra"
+      },
+      "status": "Searching",
+      "notes": []
+    }
+  ],
+  "matches": [
+    {
+      "id": "m_1780584319762",
+      "customerId": "cust7",
+      "matchId": "pool_f_20",
+      "sentDate": "2026-06-04T14:45:19.762Z",
+      "matchDetails": {
+        "firstName": "Rhea",
+        "lastName": "Chatterjee",
+        "age": 26,
+        "city": "Delhi NCR",
+        "designation": "Medical Practitioner"
+      },
+      "emailContent": "Dear Rohan,\n\nI am delighted to introduce you to Rhea, a highly eligible and compatible match we've carefully selected for you. At 28 years of age, Rhea is 2 years younger and shares similar life aspirations with you. Standing at 5'6\", she's also 7 inches shorter than you, but her charming personality and beauty shine through. Both of you are in agreement on raising a family, a crucial aspect of your future together.\n\nAs a Medical Practitioner at McKinsey, you'll appreciate Rhea's compassion and dedication to her work. Hailing from the Delhi NCR region, you'll enjoy exploring the city's vibrant culture and lifestyle together. Your shared values, including an eggitarian diet and appreciation for a balanced lifestyle, will create a strong foundation for your relationship. I believe Rhea has immense potential to be your perfect partner.\n\nWould you like to review Rhea's full biodata and schedule a brief call to get to know her better? Please"
+    },
+    {
+      "id": "m_1780583884651",
+      "customerId": "cust1",
+      "matchId": "pool_f_3",
+      "sentDate": "2026-06-04T14:38:04.651Z",
+      "matchDetails": {
+        "firstName": "Anjali",
+        "lastName": "Singh",
+        "age": 26,
+        "city": "Jaipur",
+        "designation": "Design Lead"
+      },
+      "emailContent": "Dear Vikram,\n\nI hope this email finds you well!\n\nI have found a high-potential match that aligns wonderfully with your preferences. Meet Anjali, who is currently working as a Design Lead at Deloitte in Jaipur. Anjali holds a degree from NIT Trichy and is described by family as a warm, progressive individual.\n\nWe noticed excellent compatibility between you two, particularly regarding your shared dietary preferences (both being vegetarians), compatible lifestyle interests, and aligned family values. Additionally, Anjali matches your expectations on height and age criteria perfectly.\n\nI think there is great potential here. Would you like me to share Anjali's full biodata with you, or shall we schedule a quick 5-minute call to discuss this profile?\n\nWarm regards,\n\nSimran Alag\nSenior Matchmaker, VowsAI"
+    },
+    {
+      "id": "m_1780583492081",
+      "customerId": "cust6",
+      "matchId": "pool_m_25",
+      "sentDate": "2026-06-04T14:31:32.081Z",
+      "matchDetails": {
+        "firstName": "Shivam",
+        "lastName": "Sen",
+        "age": 26,
+        "city": "Chennai",
+        "designation": "Design Lead"
+      },
+      "emailContent": "Dear Priya,\n\nI hope this email finds you well!\n\nI have found a high-potential match that aligns wonderfully with your preferences. Meet Shivam, who is currently working as a Design Lead at Deloitte in Chennai. Shivam holds a degree from NIT Trichy and is described by family as a warm, progressive individual.\n\nWe noticed excellent compatibility between you two, particularly regarding your shared dietary preferences (both being eggetarians), compatible lifestyle interests, and aligned family values. Additionally, Shivam matches your expectations on height and age criteria perfectly.\n\nI think there is great potential here. Would you like me to share Shivam's full biodata with you, or shall we schedule a quick 5-minute call to discuss this profile?\n\nWarm regards,\n\nSimran Alag\nSenior Matchmaker, VowsAI"
+    }
+  ]
+}
