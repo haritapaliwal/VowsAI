@@ -1,0 +1,15 @@
+{
+  "name": "vows-ai-matchmaker",
+  "version": "1.0.0",
+  "description": "Premium Indian Matchmaker Algo & Dashboard MVP",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && npm i --prefix backend && npm i --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
