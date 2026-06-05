@@ -244,8 +244,8 @@ export function calculateMatchCompatibility(customer, match) {
     score = Math.max(score - 15, 0);
   }
 
-  // Final normalization to percentage
-  const finalPercentage = Math.round(score);
+  // Final normalization to percentage (clamped between 0 and 100)
+  const finalPercentage = Math.max(0, Math.min(Math.round(score), 100));
 
   return {
     profile: match,
