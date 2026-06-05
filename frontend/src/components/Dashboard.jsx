@@ -5,6 +5,8 @@ import {
   TrendingUp, CheckCircle, ChevronRight, RefreshCw, Send, AlertTriangle, Clock
 } from 'lucide-react';
 
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
 export default function Dashboard({ matchmaker, onLogout }) {
   // Navigation
   const [activeNav, setActiveNav] = useState('clients'); // 'clients' | 'outbox'
@@ -46,7 +48,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
   const fetchCustomers = async () => {
     setLoadingClients(true);
     try {
-      const response = await fetch('http://localhost:5000/api/customers');
+      const response = await fetch(`${API_BASE}/api/customers`);
       const data = await response.json();
       if (data.success) {
         setCustomers(data.customers);
@@ -67,7 +69,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
   const fetchOutboxHistory = async () => {
     setLoadingOutbox(true);
     try {
-      const response = await fetch('http://localhost:5000/api/matches/history');
+      const response = await fetch(`${API_BASE}/api/matches/history`);
       const data = await response.json();
       if (data.success) {
         setOutboxHistory(data.history);
@@ -96,7 +98,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
   const fetchMatchesForCustomer = async (id) => {
     setLoadingMatches(true);
     try {
-      const response = await fetch(`http://localhost:5000/api/customers/${id}/matches`);
+      const response = await fetch(`${API_BASE}/api/customers/${id}/matches`);
       const data = await response.json();
       if (data.success) {
         setMatches(data.matches);
@@ -124,7 +126,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
 
     setIsSubmittingNote(true);
     try {
-      const response = await fetch(`http://localhost:5000/api/customers/${selectedCustomerId}/notes`, {
+      const response = await fetch(`${API_BASE}/api/customers/${selectedCustomerId}/notes`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: newNote, author: matchmaker.name })
@@ -148,7 +150,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
   const handleStatusChange = async (newStatus) => {
     setUpdatingStatus(true);
     try {
-      const response = await fetch(`http://localhost:5000/api/customers/${selectedCustomerId}/status`, {
+      const response = await fetch(`${API_BASE}/api/customers/${selectedCustomerId}/status`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ status: newStatus })
@@ -170,7 +172,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
   const handleGenerateAIExplanation = async (matchId) => {
     setGeneratingAI(prev => ({ ...prev, [matchId]: true }));
     try {
-      const response = await fetch('http://localhost:5000/api/ai/scoring-explanation', {
+      const response = await fetch(`${API_BASE}/api/ai/scoring-explanation`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ customerId: selectedCustomerId, matchId })
@@ -193,7 +195,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
   const handleGenerateIntroEmail = async (matchId) => {
     setGeneratingEmail(prev => ({ ...prev, [matchId]: true }));
     try {
-      const response = await fetch('http://localhost:5000/api/ai/email-intro', {
+      const response = await fetch(`${API_BASE}/api/ai/email-intro`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ customerId: selectedCustomerId, matchId })
@@ -216,7 +218,7 @@ export default function Dashboard({ matchmaker, onLogout }) {
   const handleSendMatch = async (matchId, emailContent) => {
     setSendingMatch(prev => ({ ...prev, [matchId]: true }));
     try {
-      const response = await fetch('http://localhost:5000/api/matches/send', {
+      const response = await fetch(`${API_BASE}/api/matches/send`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
